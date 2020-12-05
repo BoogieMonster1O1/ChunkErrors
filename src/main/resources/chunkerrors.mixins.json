@@ -1,10 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "io.github.boogiemonster1o1.example.mixin",
+  "package": "io.github.boogiemonster1o1.chunkerrors.mixin",
   "compatibilityLevel": "JAVA_8",
-  "client": [
-    "ExampleMixin"
+  "mixins": [
+    "NoiseChunkGeneratorMixin"
   ],
   "injectors": {
     "defaultRequire": 1

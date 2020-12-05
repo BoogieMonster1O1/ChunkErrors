@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "chunkerrors",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Chunk Errors",
+  "description": "Breaks your chunks",
   "authors": [
-    "Me!"
+    "BoogieMonster1O1"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -17,16 +17,8 @@
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      {
-        "value": "io.github.boogiemonster1o1.example.ExampleMod",
-        "adapter": "scala"
-      }
-    ]
-  },
   "mixins": [
-    "modid.mixins.json"
+    "chunkerrors.mixins.json"
   ],
 
   "depends": {
