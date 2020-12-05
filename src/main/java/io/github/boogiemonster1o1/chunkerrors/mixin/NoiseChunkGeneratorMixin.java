@@ -42,6 +42,7 @@ public class NoiseChunkGeneratorMixin {
 	private OctavePerlinNoiseSampler signInvertedDensityNoise;
 	@Unique
 	private SimplexNoiseSampler signInvertedIslandNoise;
+	@Unique
 	private boolean inverted = false;
 
 	@Inject(at = @At(value = "INVOKE", target = "Ljava/util/function/Supplier;get()Ljava/lang/Object;", ordinal = 1), method = "<init>(Lnet/minecraft/world/biome/source/BiomeSource;Lnet/minecraft/world/biome/source/BiomeSource;JLjava/util/function/Supplier;)V")
